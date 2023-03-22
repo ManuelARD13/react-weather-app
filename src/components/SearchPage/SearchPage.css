@@ -1,0 +1,92 @@
+.search-page-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("../../img/autummBK.jpg");
+    background-size: cover;
+    background-color: rgba(0,0,0, 0.3);
+    background-blend-mode: overlay;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.logo .logo-title {
+    padding-top: 8vh;
+    font-size: 5rem;
+    line-height: 3.3rem;
+    position: relative;
+    right: 4vw;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
+}
+
+.logo .top-logo-title {
+    font-size: 2.8rem;
+    position: relative;
+    right: 3vw;
+}
+
+.logo-container .logo-subtitle {
+    color: white;
+    font-family: monospace;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    margin-top: -2vh;
+    margin-bottom: 2vh;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.search-bar {
+    width: 60vw;
+    min-height: 6vh;
+    padding: 0 1.5vw 0 1.5vw;
+    border: none;
+    border-radius: 0.5vw 0 0 0.5vw;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+    background-color: rgba(255,209,67, 0.836);
+    color: white;
+    font-size: 1.3rem;
+    font-family: monospace;
+    text-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
+}
+
+.search-bar::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+    text-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
+    font-style: italic;
+}
+
+.search-bar:focus-visible {
+    outline: none;
+}
+
+.search-button {
+    min-height: 6vh;
+    min-width: 5vw;
+    border: none;
+    border-radius: 0 0.5vw 0.5vw 0;
+    background-color: rgba(255,145,83,1);
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+}
+
+.search-button svg{
+    height: 2.5vw;
+    width: 2.5vw;
+}
