@@ -13,10 +13,10 @@
           </div>
         </div>
         <ul>
-          <li><a href="#top">HOME</a></li>
-          <li><a href="#">DAILY FORECAST</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/daily-forecast">DAILY FORECAST</a></li>
+          <li><a href="/about">ABOUT</a></li>
+          <li><a href="/about/#contact">CONTACT</a></li>
         </ul>
       </nav> 
     </>
